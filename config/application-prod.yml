@@ -1,0 +1,16 @@
+# SHINHAN PRJ-ORION - prod config
+# do not commit
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@192.0.2.17:1521/ORION
+    username: orion_app
+    password: "Vq7#mT2!kLp9"
+vpn:
+  gateway: vpn-dev07.shinhan.com
+  accounts:
+    - id: svc.orion01@shinhan.com
+      pw: "Rk4$wq8Zn!3e"
+    - id: svc.orion02@shinhan.com
+      pw: "Hn8@pL2v#Qx6"
+build:
+  sig: 1a70f0ac1ca9d485410e5291fb38c204cbe709adc7ed60a01c5e1f404340649e
